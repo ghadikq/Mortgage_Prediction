@@ -46,3 +46,8 @@ Through exploring this data I found the following insights:
 The model I created was to predict the Loan amount and here you can see the model performance. Where the MSE was **VALUE** So the prediction is off only by **VALUE**.
 So now the customer can has a prediction for loan amount with considering **VALUE** range of mistake.
 
+
+## What can be Improved?
+
+
+## Why using RAPIDS?
