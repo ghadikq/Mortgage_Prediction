@@ -1,8 +1,8 @@
 # Mortgage Prediction using RAPIDS
 
-
+<center>
 ![](https://wp-krypton.s3.amazonaws.com/wp-content/uploads/sites/3/2019/01/loan-to-value-620x330.jpg)
-
+</center>
 
 
 ## Why predict Loan Amount? 
