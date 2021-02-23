@@ -17,7 +17,9 @@ Also, predict Loan Amount can help Bank or Finance Company with their marketing 
 
 Dataset is derived from [Fannie Mae’s Single-Family Loan Performance Data](https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data) with all rights reserved by Fannie Mae.
 
-The sample data used in this project is **2020 3rd Quarter** with dimension 2,771,993 rows and 108 columns. The same data used in this project is provided [Here](https://drive.google.com/file/d/1UZbkWL2acJLg9V1SX3793neG0PeXRtNv/view?usp=sharing)
+The sample data used in this project is **2020 3rd Quarter** with **dimension 2,771,993 rows and 108 columns**. 
+
+The same data used in this project is provided [Here](https://drive.google.com/file/d/1UZbkWL2acJLg9V1SX3793neG0PeXRtNv/view?usp=sharing)
 
 The target is **Original UPB** The dollar amount of the loan as stated on the note at the time the loan was originated.
 
