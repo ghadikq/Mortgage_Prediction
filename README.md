@@ -1,5 +1,10 @@
 # Mortgage Prediction using RAPIDS
 
+
+![](https://wp-krypton.s3.amazonaws.com/wp-content/uploads/sites/3/2019/01/loan-to-value-620x330.jpg)
+
+
+
 ## Why predict Loan Amount? 
 
 Customers have to always face the problem of having to go through all procedure of loan issue to get to know an estimate of the loan amount and sometimes the amount change when issued.
