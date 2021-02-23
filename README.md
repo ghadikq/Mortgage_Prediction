@@ -73,12 +73,14 @@ RAPIDS also includes support for multi-node, multi-GPU deployments, enabling vas
 
 ### Why it is good to use RAPIDS in this project?
 
-- Large data size 
-    The data has 2,771,993 rows and 108 columns so using CPU will take a long time to import, clean, train, and test the ML model. Using GPU helped work progress faster.
+- **Large data size** 
+    -- The data has 2,771,993 rows and 108 columns so using CPU will take a long time to import, clean, train, and test the ML model. Using GPU helped work progress faster.
 
-- Data Cleaning 
-    This data need a lot of cleaning so using cudf instead of pandas help to reduce preprocessing time.
-
+- **Data Cleaning** 
+    -- This data need a lot of cleaning so using cudf instead of pandas help to reduce preprocessing time.
+- **Limited Time** 
+    -- I worked on this project for 4 days so have faster processing definitely helps.
+    
 ### RAPIDS Libraries used in this project:
 
 - **cuDF** for EDA as a replacement for Pandas you can find the documentation [here](https://docs.rapids.ai/api/cudf/nightly/api.html)
