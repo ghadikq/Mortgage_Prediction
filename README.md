@@ -49,5 +49,38 @@ So now the customer can has a prediction for loan amount with considering **VALU
 
 ## What can be Improved?
 
+- Reduce the number of predictors by found which columns will really enhance model performance.
+
+- Create more complicated and interactive visualizations.
+
+ - Can perform Hyperparameters tuning to get the best parameters for the model for example GridSearch, Cross-Validation...etc.
 
 ## Why using RAPIDS?
+
+RAPIDS libraries are open source, written in Python, and built on Apache Arrow. The software is being developed in partnership with enterprises globally. RAPIDS also focuses on common data preparation tasks for analytics and data science. 
+
+RAPIDS also includes support for multi-node, multi-GPU deployments, enabling vastly accelerated processing and training on much larger dataset sizes.
+
+### RAPIDS Features:
+
+- Accelerate your run time with minimal code changes and no new tools to learn.
+
+- Increase ML model accuracy by iterating on models faster and deploying them more frequently.
+
+- Reduce training time
+
+- Open source software and supported by NVIDIA.
+
+### Why it is good to use RAPIDS in this project?
+
+- Large data size 
+    The data has 2,771,993 rows and 108 columns so using CPU will take a long time to import, clean, train, and test the ML model. Using GPU helped work progress faster.
+
+- Data Cleaning 
+    This data need a lot of cleaning so using cudf instead of pandas help to reduce preprocessing time.
+
+### RAPIDS Libraries used in this project:
+
+- **cuDF** for EDA as a replacement for Pandas you can find the documentation [here](https://docs.rapids.ai/api/cudf/nightly/api.html)
+
+- **cuML** for the machine learning part as a replacement for sklearn you can find the documentation [here](https://docs.rapids.ai/api/cuml/stable/api.html)
