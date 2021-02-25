@@ -43,8 +43,8 @@ Through exploring this data I found the following insights:
 
 ### Model Results
 
-The model I created was to predict the Loan amount and here you can see the model performance. Where the MSE was **VALUE** So the prediction is off only by **VALUE**.
-So now the customer can has a prediction for loan amount with considering **VALUE** range of mistake.
+The model I created was to predict the Loan amount and here you can see the model performance. Where the MSE was **22,663.648** So the prediction is off only by **$22,664**.
+So now the customer can has a prediction for loan amount with considering **$22,664** range of mistake.
 
 
 ## What can be Improved?
